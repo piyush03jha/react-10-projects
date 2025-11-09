@@ -4,12 +4,14 @@ import ContactHeader from "./components/contactHeader/contactHeader";
 import ContactForm from "./components/contactForm/ContactForm";
 
 function App() {
-  return <div>
+  return(
+    <div>
     <Navigation></Navigation>
     <main className="main_container">
     <ContactHeader></ContactHeader>
     <ContactForm></ContactForm>
     </main>
-  </div>;
+  </div>
+  );
 }
 export default App;
